@@ -1,13 +1,16 @@
 .header {
-    position: fixed;         
+    position: absolute;         
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
         
    }
 
-.navigation {         
-    height: 40px;       
+.navigation {
+    position: fixed;  
+    background-color: darkturquoise;       
+    height: 40px;
+    width: 100%;       
 }
 
 .nav-list { 
