@@ -1,7 +1,9 @@
 .header {
     position: fixed;         
     background-color: darkturquoise;
-    height: 40px;    
+    height: 40px;
+    width: 100%;
+        
    }
 
 .navigation {         
