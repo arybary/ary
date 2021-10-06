@@ -1,0 +1,73 @@
+.header {position: fixed
+    background-color: darkturquoise;
+    height: 40px;
+    
+   }
+
+.navigation { 
+    
+    height: 40px;
+   
+       
+}
+
+.nav-list { 
+                
+   }
+
+.nav-item {
+     display:inline-block;
+     line-height: 40px;
+     color: white;
+      
+}
+.content {
+    background-color: beige;
+    height: 5000px;
+   
+}
+
+.head {
+    position: relative;   
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    top:calc(50% - 100px);
+    left:calc(50% - 100px);    
+}
+
+.ear {
+    background-color: brown;
+    height: 60px;
+    width: 40px;
+  }
+
+.ear_right {
+
+}
+
+.ear_left {
+
+}
+
+eye {
+    border-radius: 50%;
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+
+}
+
+eye_right {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+}
+
+eye_left {
+    position: fixed;
+    top: 80px;
+    right: 40px;
+}
+
+
