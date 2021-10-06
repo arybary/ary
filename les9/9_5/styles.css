@@ -1,8 +1,7 @@
-.header {
-    position: absolute;         
+.header {         
     background-color: darkturquoise;
     height: 40px;
-    width: 100%;
+    
         
    }
 
@@ -10,7 +9,8 @@
     position: fixed;  
     background-color: darkturquoise;       
     height: 40px;
-    width: 100%;       
+    width: 100%;
+           
 }
 
 .nav-list { 
@@ -32,7 +32,7 @@
 }
 
 .head {
-    position: relative;   
+    position: absolute;   
     background-color: aquamarine;
     height: 200px;
     width: 200px;
