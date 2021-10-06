@@ -3,21 +3,22 @@
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
-    
-        
+    z-index:2        
    }
 
-.navigation {          
+.navigation { 
+             
     height: 40px;           
 }
 
 .nav-list { 
-    line-height: 0px;                      
+    line-height: 0px;
+                          
    }
 
 .nav-item {
-     display:inline-block;     
-     margin-left: 16px;    
+     display:inline-block;
+     margin-left: 16px;       
      color: white; 
           
 }
@@ -35,7 +36,8 @@
     height: 200px;
     width: 200px;
     top:calc(50% - 100px);
-    left:calc(50% - 100px);    
+    left:calc(50% - 100px);
+    z-index:1;    
 }
 
 .ear {
