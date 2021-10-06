@@ -1,31 +1,29 @@
-.header {         
+.header {
+    position: fixed;       
     background-color: darkturquoise;
     height: 40px;
+    width: 100%;
     
         
    }
 
-.navigation {
-    position: fixed;  
-    background-color: darkturquoise;       
-    height: 40px;
-    width: 100%;
-           
+.navigation {          
+    height: 40px;           
 }
 
 .nav-list { 
-    line-height: 0px; 
-                      
+    line-height: 0px;                      
    }
 
 .nav-item {
      display:inline-block;     
      margin-left: 16px;    
-     color: white;
+     color: white; 
           
 }
 
 .content {
+   
     background-color: beige;
     height: 5000px;
    
