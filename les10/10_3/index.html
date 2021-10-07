@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            height: 40px;
+            background-color: yellow;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav {
+            padding-left: 16px;
+            display: flex;
+            list-style-type: none;
+        }
+
+        .na_it {
+            margin-right: 16px;
+        }
+
+        .footer {
+            height: 40px;
+            background-color: green;
+            display: flex;
+        }
+
+        .f_t {
+            margin: auto;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh
+        }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+        }
+
+        .dashboard {
+            display: flex;
+            background-color: pink;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sideboard {
+            background-color: grey;
+            width: 200px;
+
+
+        }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            margin: 16px;
+        }
+
+        nava {
+            margin: 0;
+            padding-left: 0px;
+
+        }
+
+        .na_too {
+            margin-left: 16px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <ul class="nav">
+                <li class="na_it">About</li>
+                <li class="na_it">Products</li>
+                <li class="na_it">Contacts</li>
+            </ul>
+        </header>
+        <main class="content">
+            <section class="dashboard">
+                <h2>I can use Flexbox!!!</h2>
+            </section>
+            <aside class="sideboard">
+                <h2>News</h2>
+                <ul class="nava" style="padding-left: 0px;">
+                    <li class="na_too">News 1</li>
+                    <li class="na_too">News 2</li>
+                    <li class="na_too">News 3</li>
+                </ul>
+            </aside>
+        </main>
+        <footer class="footer">
+            <span class="f_t">
+                Footer
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>
