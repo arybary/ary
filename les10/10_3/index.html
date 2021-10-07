@@ -58,31 +58,31 @@
         }
 
         .sideboard {
+            display: flex;
             background-color: grey;
             width: 200px;
-
-
+            flex-direction: column;
         }
 
         h2 {
             display: flex;
+            margin-top: 16px;
+            margin-bottom: 16px;
             justify-content: center;
-            margin: 16px;
         }
 
-        nava {
+
+
+        .nava {
             margin: 0;
             padding-left: 0px;
-
+            line-height: 40px;
+            margin-left: 16px;
+            list-style-type: none;
         }
 
         .na_too {
-            margin-left: 16px;
-            height: 40px;
-            display: flex;
-            justify-content: space-between;
-
-
+            margin: 0;
         }
     </style>
 </head>
@@ -102,7 +102,7 @@
             </section>
             <aside class="sideboard">
                 <h2>News</h2>
-                <ul class="nava" style="padding-left: 0px;">
+                <ul class="nava">
                     <li class="na_too">News 1</li>
                     <li class="na_too">News 2</li>
                     <li class="na_too">News 3</li>
