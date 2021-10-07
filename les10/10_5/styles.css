@@ -3,16 +3,11 @@
 }
 
   
-.page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100px;
-}
-
 
 header {
   display: flex;
   justify-content: center;
+  align-items: space-around;
 }
 
 .article {
@@ -24,7 +19,7 @@ header {
   flex-grow: 1;
 }
 
-.article-list {
+.articles-list {
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 0;
