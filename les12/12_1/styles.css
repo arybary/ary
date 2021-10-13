@@ -23,6 +23,10 @@ span {
   text-decoration: underline;
 }
 
+a {
+  text-decoration: none;
+}
+
 em {
   color: grey;
 }
