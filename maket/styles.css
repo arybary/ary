@@ -13,8 +13,8 @@ font-family: Montserrat;
 
 }
 
-main {
-margin: 0;
+main {align-items: center;
+margin-top:60px;
 padding: 0;
 text-align: center;
 background-color: #334247;
@@ -26,15 +26,13 @@ height: 770px;
 position: absolute;
 
 right: 928px;
-top: 115px;
-bottom: 115px;
+
 }
 
 .bus {
 position: absolute;
 left: 530px;
-top: 115px;
-bottom: 115px;
+
 
 }
 
@@ -42,8 +40,7 @@ bottom: 115px;
 position: absolute;
 width: 380px;
 right: 132px;
-top: 115px;
-bottom: 115px;
+
 }
 
 .kub {
