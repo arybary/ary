@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+
+    .image-container {
+      margin: 50px auto 0;
+      margin-bottom: 50px;
+      border-radius: 20px;
+      max-width: 100%;
+      display: block;
+    }
+
+    .gallery {
+      display: flex;
+    }
+
+    .card {
+      margin: 16px;
+      box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0, 0.75);
+    }
+
+
+
+    .opct {
+      filter: opacity(50%);
+    }
+
+    .blur {
+      filter: blur(4px);
+    }
+
+    .inv {
+      filter: invert(100%);
+    }
+
+    .caption {
+      line-height: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img class="image-container"
+      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="l w t">
+  </div>
+  <div class="gallery">
+    <figure class="card">
+      <img class="opct" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        alt="nn">
+      <figcaption class="caption">
+        opacity
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img class="blur" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        alt="bvh">
+      <figcaption class="caption">
+        blur
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img class="inv" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        alt="hvh">
+      <figcaption class="caption">
+        invert
+      </figcaption>
+    </figure>
+  </div>
+
+</body>
+
+</html>
