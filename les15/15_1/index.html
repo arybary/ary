@@ -7,18 +7,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
   <style>
-    html {
+    body {
       box-sizing: border-box;
+
     }
 
-    .image-container {
-      display: block;
-      border-radius: 20px;
-      max-width: 100%;
-      max-height: 100%;
+    .razm {
+      display: flex;
+      flex-wrap: wrap;
 
+    }
+
+    img.image-container {
+
+      flex-direction: column;
       margin: 50px auto;
+      max-width: 100%;
+      border-radius: 20px;
+
     }
+
 
 
 
@@ -53,7 +61,7 @@
 </head>
 
 <body>
-  <div>
+  <div class="razm">
     <img class="image-container"
       src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="l w t">
   </div>
@@ -63,21 +71,21 @@
       <img class="opct" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
         alt="nn">
       <figcaption class="caption">
-        opacity
+        Opacity
       </figcaption>
     </figure>
     <figure class="card">
       <img class="blur" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
         alt="bvh">
       <figcaption class="caption">
-        blur
+        Blur
       </figcaption>
     </figure>
     <figure class="card">
       <img class="inv" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
         alt="hvh">
       <figcaption class="caption">
-        invert
+        Invert
       </figcaption>
     </figure>
   </div>
