@@ -12,10 +12,19 @@
     }
 
     .image-container {
-      margin: 50px 50px auto auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+
+    }
+
+    .h {
+      display: flow-root;
+      margin: 50px auto 50px;
       border-radius: 20px;
       max-width: 100%;
-      display: block;
     }
 
     .gallery {
@@ -49,9 +58,9 @@
 </head>
 
 <body>
-  <div style="display: flex;">
-    <img class="image-container"
-      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="l w t">
+  <div class="image-container">
+    <img class="h" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
+      alt="l w t">
   </div>
   <div class="gallery">
     <figure class="card">
