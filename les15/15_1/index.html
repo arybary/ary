@@ -7,18 +7,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
   <style>
-    body {
+    html {
       box-sizing: border-box;
     }
 
     .image-container {
       display: block;
-
-      margin: 50px auto 50px;
       border-radius: 20px;
       max-width: 100%;
       max-height: 100%;
+
+      margin: 50px auto;
     }
+
+
 
     .gallery {
       display: flex;
@@ -51,9 +53,10 @@
 </head>
 
 <body>
-
-  <img class="image-container"
-    src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="l w t">
+  <div>
+    <img class="image-container"
+      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="l w t">
+  </div>
 
   <div class="gallery">
     <figure class="card">
@@ -78,6 +81,7 @@
       </figcaption>
     </figure>
   </div>
+
 
 </body>
 
