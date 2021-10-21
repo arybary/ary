@@ -2,95 +2,65 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
-  <style>
-    body {
-      box-sizing: border-box;
-
-    }
-
-    .razm {
-      display: flex;
-      flex-wrap: wrap;
-
-    }
-
-    img.image-container {
-
-      flex-direction: column;
-      margin: 50px auto;
-      max-width: 100%;
-      border-radius: 20px;
-
-    }
-
-
-
-
-    .gallery {
-      display: flex;
-    }
-
-    .card {
-      margin: 16px;
-      box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
-    }
-
-
-
-    .opct {
-      filter: opacity(50%);
-    }
-
-    .blur {
-      filter: blur(4px);
-    }
-
-    .inv {
-      filter: invert(100%);
-    }
-
-    .caption {
-      line-height: 30px;
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <style>
+        .image {
+            display: block;
+            margin: 50px auto 50px;
+            border-radius: 20px;
+            max-width: 100%;
+        }
+        
+        .gallery {
+            display: flex;
+        }
+        
+        .card {
+            margin: 16px;
+            box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+        }
+        
+        .opacity-filter {
+            filter: opacity(50%);
+        }
+        
+        .blur-filter {
+            filter: blur(4px);
+        }
+        
+        .invert-filter {
+            filter: invert(100%);
+        }
+        
+        .caption {
+            line-height: 30px;
+            text-align: center;
+            text-transform: lowercase;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="razm">
-    <img class="image-container"
-      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="l w t">
-  </div>
+    <div class="image-container">
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="l w t">
+    </div>
 
-  <div class="gallery">
-    <figure class="card">
-      <img class="opct" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-        alt="nn">
-      <figcaption class="caption">
-        Opacity
-      </figcaption>
-    </figure>
-    <figure class="card">
-      <img class="blur" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-        alt="bvh">
-      <figcaption class="caption">
-        Blur
-      </figcaption>
-    </figure>
-    <figure class="card">
-      <img class="inv" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-        alt="hvh">
-      <figcaption class="caption">
-        Invert
-      </figcaption>
-    </figure>
-  </div>
-
-
+    <div class="gallery">
+        <figure class="card">
+            <img class="opct" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="nn" />
+            <figcaption class="caption">Opacity</figcaption>
+        </figure>
+        <figure class="card">
+            <img class="blur" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="bvh" />
+            <figcaption class="caption">Blur</figcaption>
+        </figure>
+        <figure class="card">
+            <img class="inv" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="hvh" />
+            <figcaption class="caption">Invert</figcaption>
+        </figure>
+    </div>
 </body>
 
 </html>
