@@ -1,6 +1,7 @@
 .checkbox {
   position: relative;
-  padding-left: 35px;
+  top: 16px;
+  padding-left: 35px;  
   margin: 16px;
   font-size: 24px;
 }
@@ -15,6 +16,7 @@ input[type="checkbox"] {
   left: 0;
   top: 0;
   display: block;
+  
   width: 25px;
   height: 25px;
   background-color: #d3d3d3;
