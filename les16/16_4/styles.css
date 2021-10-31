@@ -32,8 +32,7 @@
 }
 
 .form-input {
-  margin-top: 4px;
-  margin-bottom: 8px;
+ 
   width: 100%;
   outline: none;
   height: 32px;
@@ -43,6 +42,9 @@
 }
 .form-control {
   margin-bottom: 8px;
+}
+.form-lable {
+  margin-bottom: 4px;
 }
 .submit-button {
   width: 100%;
