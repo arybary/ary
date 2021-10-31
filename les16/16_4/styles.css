@@ -32,7 +32,7 @@
 }
 
 .form-input {
- 
+  margin-bottom: 8px;
   width: 100%;
   outline: none;
   height: 32px;
@@ -41,12 +41,13 @@
   border: 1px solid #808080;
 }
 .form-control {
-  margin-bottom: 8px;
+  
 }
 .form-lable {
   margin-bottom: 4px;
 }
 .submit-button {
+  
   width: 100%;
   height: 32px;
   margin-top: 16px;
