@@ -39,3 +39,15 @@ tr:nth-child(2n+3)>td:nth-child(2n) {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+tr:last-child > td {
+  background-color: white !important;
+  border-right: none !important;
+  border-left: none !important;
+}
+
+tr> td:last-child  {
+  background-color: white !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
