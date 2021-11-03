@@ -31,7 +31,7 @@
   width: 10px;
   height: 4px;
   border-radius: 2px;  
-  animation:  moving 4s;
+  animation:  moving 2s;
   animation-iteration-count:infinite;
   animation-direction: alternate;
 }
