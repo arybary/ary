@@ -10,6 +10,8 @@
   opacity: 0.5;
   background-color: coral;
   margin-bottom: 16px;
+  text-align: center;
+  line-height: 100px;
 
   transition-property: width, opaity;
   transition-duration: 2s, 0.5s;
