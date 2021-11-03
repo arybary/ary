@@ -12,8 +12,7 @@
   align-items: center;
 }
 .spinner {position: absolute;
-  animation: blinking 2s;
-  animation-iteration-count:infinite;
+
 }
 .spinner-text {
   
@@ -31,7 +30,7 @@
   width: 10px;
   height: 4px;
   border-radius: 2px;  
-  animation:  moving 2s;
+  animation:  moving 1s;
   animation-iteration-count:infinite;
   animation-direction: alternate;
 }
