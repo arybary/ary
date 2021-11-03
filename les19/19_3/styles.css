@@ -29,7 +29,7 @@
   width: 10px;
   height: 4px;
   border-radius: 2px;  
-  animation:  moving 2s;
-  animation-iteration-count:infinite;
+  animation:  moving 4s;
+  animation-iteration-count:nfinite;
   animation-direction: reverse;
 }
