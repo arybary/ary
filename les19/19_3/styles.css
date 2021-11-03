@@ -30,6 +30,6 @@
   height: 4px;
   border-radius: 2px;  
   animation:  moving 4s;
-  animation-iteration-count:nfinite;
+  animation-iteration-count:infinite;
   animation-direction: reverse;
 }
