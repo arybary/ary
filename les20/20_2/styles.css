@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  height: 100vh;
+}
+
 .fancy-button {
   width: 150px;
   height: 50px;
