@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-form {
+  margin: 32px;
+}
+.input-form {
+  margin: 8px;
+}
+.languages {
+  margin: 8px;
+}
