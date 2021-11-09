@@ -20,21 +20,19 @@ html {
 
 .main {
   display: flex;
-  flex:1;
-  font-size: 1.25em;
+  flex:1;  
 }
-.navigation .section .news {
-  padding: 0.5em;
+.css-units {
+  line-height: 1.75em;
 }
+
 .footer {
  text-align: center;
   background-color: #e5e5e5;
   padding: 0.5em;
 }
 
-ul {
-  line-height: 1.75em;
-}
+
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
@@ -69,10 +67,14 @@ ul {
 }
 .navigation {
   width: 20%;
+  padding: 0.5em;
 }
 .section {
   width: 60%;
+  font-size: 1.25em;
+  padding: 0.5em;
 }
 .news {
   width: 20%;
+  padding: 0.5em;
 }
