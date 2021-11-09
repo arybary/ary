@@ -51,12 +51,14 @@ html {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding: 0;
 }
 .nav-list-link {
   margin-left: 0.5em;
   text-decoration: none;
   color: #fff;
   width: 100%;
+
   
 }
 .nav-list {
