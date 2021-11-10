@@ -32,12 +32,14 @@ body {
 }
 
 @media (orientation: landscape) {
-  body {
+  .container {
+    display: flex;
     flex-direction: row;
   }
 }
 @media (orientation: portrait) {
   body {
+    display: flex;
     flex-direction: column;
   }
 }
