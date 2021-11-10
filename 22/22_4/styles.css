@@ -6,14 +6,18 @@ html {
   font-size: 16px;
 }
 .header {
+  display: flex;
+  align-items: center;
   height: 3em;
   padding-left: 1em;
   padding-right: 1em;
   background-color: #eee;
+  vertical-align: middle; 
  
 }
 .fa-bars {
-  font-size: 2em;  
+  font-size: 2em;
+   
 }
 .but-menu {
   border: none;
